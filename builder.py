@@ -1,9 +1,9 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
 from typing import Any
+#me crea todos pq lo tengo protegido no privado algun self._product
 
-
-class Builder(ABC):
+class Builder(ABC): 
     """
     The Builder interface specifies methods for creating the different parts of
     the Product objects.
